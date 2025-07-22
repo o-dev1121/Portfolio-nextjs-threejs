@@ -34,13 +34,13 @@ Before you start, make sure you have the following software installed on your co
 1. Clone the repository to your local machine
 
 ```bash
-  git clone https://github.com/o-dev1121/Portfolio-nextjs-threejs.git
+  git clone https://github.com/your-github-username/Portfolio-nextjs-threejs.git
 
 ```
 2. Navigate to the project directory
 
 ```bash
-  cd Project_3DPortfolio
+  cd Portfolio-nextjs-threejs
 ```
 3. Install the necessary dependencies
 ```bash
@@ -64,15 +64,16 @@ The website should now be up and running on http://localhost:3000.
 
 ## 🚀 About Me
 Specializations:
-- UI/UX Design.
-- Web Development
+- Mobile Application Development.
+- Web Development.
+- Complex visualization development.
+- 3D animations and configurators building.
+- GIS features development.
 
 ## 🙋‍♂️ Connect With Me
 
 [<img src="https://skillicons.dev/icons?i=github" />](https://github.com/o-dev1121)&nbsp;
 [<img src="https://skillicons.dev/icons?i=linkedin" />](https://www.linkedin.com/in/osmel-trillo/)&nbsp;
-<!-- [<img src="https://skillicons.dev/icons?i=instagram" />](https://www.instagram.com/_osmel/)&nbsp;
-[<img src="https://skillicons.dev/icons?i=devto" />](https://osmel-trillo.netlify.app/) -->
 
 ## 🗒️ Authors
 - Osmel Trillo
