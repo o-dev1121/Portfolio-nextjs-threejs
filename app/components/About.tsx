@@ -54,13 +54,7 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>
-				Dynamic Full-Stack Developer with a passion for crafting innovative web
-				applications. Proven expertise in React, Next.js, Node.js, and Python.
-				Skilled in UI/UX design and DevOps (Docker). Proven ability to deliver high-quality,
-				scalable solutions, as demonstrated by a strong portfolio of full-stack
-				Next.js projects and modern UI/UX designs. Eager to leverage my
-				technical prowess and problem-solving abilities to contribute to
-				cutting-edge projects and drive innovation.
+				8+ years-experienced full-stack web and mobile developer with deep expertise in React Native, React, Next.js, Three.js, Tailwind CSS, Flutter, and Mapbox. Skilled in both frontend and backend, with strong knowledge of Objective C and Swift. Focused on delivering clean, testable code and solving complex problems without over-relying on external libraries. Known for collaborating closely with clients and teams to ensure timely, business-aligned results. Passionate about building scalable, secure apps and being a dependable, solutions-driven partner in every project.
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
