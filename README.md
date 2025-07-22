@@ -1,7 +1,7 @@
 # Project 3D - Portfolio
 
 <p align="center">
-  <img src="./preview.png" alt="Osmel's Logo Image"/>
+  <img src="/preview.png" alt="Osmel's Logo Image"/>
 </p>
 
 This was my first project using Vite. Initially made using tutorial of JavaScipt Mastery.
