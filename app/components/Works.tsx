@@ -18,8 +18,9 @@ type ProjectCardProps = {
 	}[];
 	image: string;
 	source_code_link?: string;
-	deploy_link: string;
-	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
+	android_link?: string;
+	ios_link?: string;
+	deploy_link?: string;
 };
 
 const ProjectCard = ({
@@ -29,8 +30,9 @@ const ProjectCard = ({
 	tags,
 	image,
 	source_code_link,
+	android_link,
+	ios_link,
 	deploy_link,
-	platform
 }: ProjectCardProps) => {
 	return (
 		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -55,29 +57,68 @@ const ProjectCard = ({
 						{source_code_link && <Link
 							href={source_code_link}
 							target="_blank"
-							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+							className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
 						>
 							<Image
-								src="/tech/github.webp"
+								src="/tech/github.png"
 								width={24}
 								height={24}
 								alt="source-code"
 								className="object-contain"
 							/>
 						</Link>}
-						<Link
+						{android_link && <Link
+							href={android_link}
+							target="_blank"
+							className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
+						>
+							<Image
+								src="/tech/googleplaystore.png"
+								width={24}
+								height={24}
+								alt="source-code"
+								className="object-contain"
+							/>
+						</Link>}
+						{ios_link && <Link
+							href={ios_link}
+							target="_blank"
+							className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
+						>
+							<Image
+								src="/tech/apple.png"
+								width={24}
+								height={24}
+								alt="source-code"
+								className="object-contain"
+							/>
+						</Link>}
+						{deploy_link && <Link
 							href={deploy_link}
 							target="_blank"
 							className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
 						>
 							<Image
-								src={platform === "Netlify" ? "/tech/netlify.webp" : platform === "Vercel" ? "/tech/vercel.svg" : platform === "Wordpress" ? "/tech/wordpress.webp" : platform === "Web" ? "/web.webp" : "/tech/figma.webp"}
+								src="/tech/web.png"
+								width={24}
+								height={24}
+								alt="source-code"
+								className="object-contain"
+							/>
+						</Link>}
+						{/* <Link
+							href={deploy_link}
+							target="_blank"
+							className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
+						>
+							<Image
+								src={platform === "Web" ? "/tech/web.png" : "/tech/figma.webp"}
 								width={24}
 								height={24}
 								alt="source code"
 								className="object-contain"
 							/>
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 

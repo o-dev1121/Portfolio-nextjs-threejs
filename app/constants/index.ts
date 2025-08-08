@@ -158,8 +158,9 @@ const projects :{
 	}[];
 	image: string;
 	source_code_link?: string;
-	deploy_link: string;
-	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
+	android_link?: string;
+	ios_link?: string;
+	deploy_link?: string;
 }[] = [
 	{
 		name: "A.V.M Auto Portfolio",
@@ -176,7 +177,6 @@ const projects :{
 			},
 		],
 		image: "/projectimg/avm.webp",
-		platform: "Wordpress",
 		deploy_link: "https://avmauto.in/",
 	},
 	{
@@ -199,7 +199,6 @@ const projects :{
 		],
 		image: "/projectimg/sparkbright.png",
 		source_code_link: "https://github.com/o-dev1121/React-Admin-DashBoard",
-		platform: "Web",
 		deploy_link: "https://sparkbright.in/",
 	},
 	{
@@ -217,8 +216,8 @@ const projects :{
 			},
 		],
 		image: "/projectimg/hoobank.webp",
-		source_code_link: "https://github.com/o-dev1121/hoobank",
-		platform: "Vercel",
+		android_link: "https://github.com/o-dev1121/hoobank",
+		ios_link: "https://github.com/o-dev1121/hoobank",
 		deploy_link: "https://hoobankbyom.netlify.app/",
 	},
 	{
@@ -244,8 +243,6 @@ const projects :{
 			},
 		],
 		image: "/projectimg/mern.png",
-		source_code_link: "https://github.com/o-dev1121/Project_MERN-Dashboard",
-		platform: "Web",
 		deploy_link: "https://admin-frontend-r705.onrender.com/",
 	},
 	{
@@ -268,7 +265,6 @@ const projects :{
 		],
 		image: "/projectimg/metaverse.png",
 		source_code_link: "https://github.com/o-dev1121/Project_Metaverse",
-		platform: "Vercel",
 		deploy_link: "https://project-metaverse-beta.vercel.app/",
 	},
 	{
@@ -295,7 +291,6 @@ const projects :{
 		],
 		image: "/projectimg/issuetracker.png",
 		source_code_link: "https://github.com/o-dev1121/Project_Issue-Tracker",
-		platform: "Vercel",
 		deploy_link: "https://project-issue-tracker.vercel.app/",
 	},
 ];
