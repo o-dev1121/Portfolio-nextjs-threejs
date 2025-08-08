@@ -199,7 +199,7 @@ const projects :{
 		],
 		image: "/projectimg/sparkbright.png",
 		source_code_link: "https://github.com/o-dev1121/React-Admin-DashBoard",
-		deploy_link: "https://sparkbright.in/",
+		// deploy_link: "https://sparkbright.in/",
 	},
 	{
 		name: "HooBank",
