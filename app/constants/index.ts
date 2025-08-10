@@ -298,6 +298,28 @@ const projects :{
 		image: "/projectimg/mwmc.png",
 		deploy_link: "https://www.mwmc.com/",
 	},
+{
+		name: "Stair Configurator",
+		description:
+			"As the frontend developer, I built the UI using Three.js, ensuring a fast, mobile-first experience. I implemented booking workflows and optimized components for performance and scalability on Netlify hosting.",
+		tags: [
+			{
+				name: "Three.js",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "TypeScript",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Netlify",
+				color: "green-text-gradient",
+			},
+		],
+		image: "/projectimg/stairfly_mvp.png",
+		source_code_link: "https://github.com/o-dev1121/Stair-Tower-Threejs",
+		deploy_link: "https://stairfly.netlify.app/",
+	},
 	{
 		name: "A.V.M Auto Portfolio",
 		description:
