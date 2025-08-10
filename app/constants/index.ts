@@ -316,7 +316,7 @@ const projects :{
 		deploy_link: "https://avmauto.in/",
 	},
 	{
-		name: "Screenshot & Bookmark Manager",
+		name: "Screenshot & Bookmark Manager - Extension",
 		description:
 			"Chrome extension that lets users capture screenshots, save bookmarks, and organize them for quick access, boosting productivity and workflow.",
 		tags: [
