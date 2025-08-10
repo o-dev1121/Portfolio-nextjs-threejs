@@ -7,6 +7,10 @@ export const navLinks = [
 		id: "work",
 		title: "Work",
 	},
+	// {
+	// 	id: "projects",
+	// 	title: "Projects",
+	// },
 	{
 		id: "contact",
 		title: "Contact",
@@ -143,7 +147,7 @@ const testimonials = [
 		testimonial:
 			"Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
 		name: "Osmel Trillo",
-		image: "/tech/github.webp",
+		image: "/tech/github.png",
 		link: "https://github.com/o-dev1121",
 	},
 ];
@@ -163,6 +167,138 @@ const projects :{
 	deploy_link?: string;
 }[] = [
 	{
+		name: "Elite & Quality Date",
+		description:
+			"Exclusive dating app for successful and attractive singles, offering selective matching, verified profiles, and a premium, high-end dating experience.",
+		tags: [
+			{
+				name: "React Native",
+				color: "red-text-gradient",
+			},
+			{
+				name: "Node.js",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "/projectimg/luxy_pro.png",
+		android_link: "https://play.google.com/store/apps/details?id=com.luxypro",
+		ios_link: "https://apps.apple.com/us/app/luxy-pro-elite-quality-date/id1089481539?platform=iphone",
+	},
+	{
+		name: "Autarq Solar Solutions",
+		description:
+			"German solar tech company offering sleek solar roof tile systems. Site features products, custom tools, case studies, and sustainability info.",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "TaliwindCSS",
+				color: "green-text-gradient",
+			},
+			{
+				name: "PWA",
+				color: "pink-text-gradient",
+			},
+		],
+		image: "/projectimg/autarq.png",
+		deploy_link: "https://www.autarq.com/en-de/",
+	},
+	{
+		name: "Munchies Web Platform",
+		description:
+			"A lively, content-rich food brand site built with motion, storytelling, and responsive design, featuring animations, product highlights, and Sanity CMS for easy content updates.",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "TaliwindCSS",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Sanity CMS",
+				color: "pink-text-gradient",
+			},
+		],
+		image: "/projectimg/munchies.png",
+		deploy_link: "https://munchies-tinloof.vercel.app/",
+	},
+	{
+		name: "Personal Portfolio",
+		description:
+			"I built a fully interactive 3D portfolio with Next.js and Three.js, and implemented smooth animations using Framer Motion. I optimized 3D assets for performance and ensured responsiveness across all devices.",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Three.js",
+				color: "green-text-gradient",
+			},
+			{
+				name: "TailwindCSS",
+				color: "pink-text-gradient",
+			},
+		],
+		image: "/projectimg/personal_portfolio.png",
+		source_code_link: "https://github.com/o-dev1121/Portfolio-nextjs-threejs",
+		deploy_link: "https://portfolio-nextjs-threejs.vercel.app/",
+	},
+	{
+		name: "Take Walks Tours",
+		description:
+			"An engaging tour booking platform offering curated travel experiences worldwide, featuring rich visuals, intuitive navigation, and responsive design for seamless trip planning.",
+		tags: [
+			{
+				name: "Vue.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Vuex",
+				color: "green-text-gradient",
+			},
+			{
+				name: "REST API",
+				color: "pink-text-gradient",
+			},
+		],
+		image: "/projectimg/takewalks.png",
+		deploy_link: "https://www.takewalks.com/",
+	},
+	{
+		name: "MWMC Health",
+		description:
+			"Comprehensive healthcare website for Medical Center, providing patient resources, service details, and hospital information with a modern, accessible design.",
+		tags: [
+			{
+				name: "Vue.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Nuxt.js",
+				color: "green-text-gradient",
+			},
+			{
+				name: "TailwindCSS",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Axios",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: "/projectimg/mwmc.png",
+		deploy_link: "https://www.mwmc.com/",
+	},
+	{
 		name: "A.V.M Auto Portfolio",
 		description:
 			"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
@@ -180,27 +316,48 @@ const projects :{
 		deploy_link: "https://avmauto.in/",
 	},
 	{
-		name: "Sparkbright Engineering Portfolio",
+		name: "Screenshot & Bookmark Manager",
 		description:
-			" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+			"Chrome extension that lets users capture screenshots, save bookmarks, and organize them for quick access, boosting productivity and workflow.",
 		tags: [
 			{
-				name: "next",
-				color: "red-text-gradient",
-			},
-			{
-				name: "Next UI",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "tailwind",
+				name: "React",
 				color: "blue-text-gradient",
 			},
+			{
+				name: "TypeScript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Chrome extension API",
+				color: "orange-text-gradient",
+			},
 		],
-		image: "/projectimg/sparkbright.png",
-		source_code_link: "https://github.com/o-dev1121/React-Admin-DashBoard",
-		// deploy_link: "https://sparkbright.in/",
+		image: "/projectimg/lasso_extension.png",
+		deploy_link: "https://chromewebstore.google.com/detail/screenshot-bookmark-manag/mpgmpojhkikacbjcdgibnhckgogphelc?pli=1",
 	},
+	// {
+	// 	name: "Sparkbright Engineering Portfolio",
+	// 	description:
+	// 		" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+	// 	tags: [
+	// 		{
+	// 			name: "next",
+	// 			color: "red-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Next UI",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: "/projectimg/sparkbright.png",
+	// 	source_code_link: "https://github.com/o-dev1121/React-Admin-DashBoard",
+	// 	// deploy_link: "https://sparkbright.in/",
+	// },
 	{
 		name: "HooBank",
 		description:
@@ -216,9 +373,7 @@ const projects :{
 			},
 		],
 		image: "/projectimg/hoobank.webp",
-		android_link: "https://github.com/o-dev1121/hoobank",
-		ios_link: "https://github.com/o-dev1121/hoobank",
-		deploy_link: "https://hoobankbyom.netlify.app/",
+		deploy_link: "https://hoooobank.netlify.app/",
 	},
 	{
 		name: "MERN Dashboard",
@@ -264,34 +419,8 @@ const projects :{
 			},
 		],
 		image: "/projectimg/metaverse.png",
-		source_code_link: "https://github.com/o-dev1121/Project_Metaverse",
+		// source_code_link: "https://github.com/o-dev1121/Project_Metaverse",
 		deploy_link: "https://project-metaverse-beta.vercel.app/",
-	},
-	{
-		name: "Issue Tracker",
-		description:
-			"A Next.JS Full Stack Issue Tracker made using Next.Js, ShadCN UI, Prisma, mySQL with latest features like Next.JS Server Components, and Serverless features.",
-		tags: [
-			{
-				name: "next",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "shadCN",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "mySQL",
-				color: "green-text-gradient",
-			},
-		],
-		image: "/projectimg/issuetracker.png",
-		source_code_link: "https://github.com/o-dev1121/Project_Issue-Tracker",
-		deploy_link: "https://project-issue-tracker.vercel.app/",
 	},
 ];
 
