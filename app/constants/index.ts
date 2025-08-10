@@ -301,7 +301,7 @@ const projects :{
 	{
 		name: "A.V.M Auto Portfolio",
 		description:
-			"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+			"Corporate site for AVM Auto showcasing their automotive services, products, and company profile with a clean, responsive, and accessible design. Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
 		tags: [
 			{
 				name: "wordpress",
