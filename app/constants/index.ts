@@ -173,7 +173,7 @@ const projects :{
 		tags: [
 			{
 				name: "React Native",
-				color: "red-text-gradient",
+				color: "green-text-gradient",
 			},
 			{
 				name: "Node.js",
@@ -185,8 +185,141 @@ const projects :{
 			},
 		],
 		image: "/projectimg/luxy_pro.png",
-		android_link: "https://play.google.com/store/apps/details?id=com.luxypro",
 		ios_link: "https://apps.apple.com/us/app/luxy-pro-elite-quality-date/id1089481539?platform=iphone",
+		android_link: "https://play.google.com/store/apps/details?id=com.luxypro",
+	},
+	{
+		name: "Music Streaming & Audio Control",
+		description:
+			"React Native music app streaming from YouTube & SoundCloud with equalizer, presets, skins, playlists, in-app purchases, and multilingual support for 21 languages.",
+		tags: [
+			{
+				name: "React Native",
+				color: "green-text-gradient",
+			},
+			{
+				name: "AVAudioEngine",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Core Data",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "/projectimg/Silence_music.png",
+		ios_link: "https://apps.apple.com/us/app/silence-music/id1401084344?platform=iphone",
+	},
+	{
+		name: "Clothes Shopping App",
+		description:
+			"A cross-platform Flutter shopping app for Blue Layne Boutique with product browsing, cart, checkout, order tracking, discounts, SMS login, progressive image loading, and Firebase backend.",
+		tags: [
+			{
+				name: "Flutter",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Node.js",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Firebase",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "GCP",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: "/projectimg/blue_layne.png",
+		ios_link: "https://apps.apple.com/us/app/blue-layne/id1446296952?platform=iphone",
+	},
+	{
+		name: "Travel Guide App",
+		description:
+			"React Native travel guide for Corning & Southern Finger Lakes with maps, location-based features, trip planning, and local recommendations. Includes UI, performance, and workflow optimizations.",
+		tags: [
+			{
+				name: "React Native",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Node.js",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Mapbox",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "/projectimg/Explore_steuben.png",
+		ios_link: "https://apps.apple.com/us/app/explore-steuben/id1537133389",
+		android_link: "https://play.google.com/store/apps/details?id=com.visitwidget.steubencounty",
+	},
+	{
+		name: "Heart Rate Tracking MVP",
+		description:
+			"Flutter-based MVP for tracking heart rate with native iOS/Android UI, custom graph rendering, and architecture ready for future backend integration.",
+		tags: [
+			{
+				name: "Flutter",
+				color: "green-text-gradient",
+			},
+			{
+				name: "charts_flutter",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Supabase",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "/projectimg/heart_rates.png",
+		ios_link: "https://apps.apple.com/us/app/measure-heart-rate/id1570945433",
+	},
+	{
+		name: "Job Networking & Finder",
+		description:
+			"A mobile platform connecting professionals with job opportunities through networking, real-time chat, and personalized recommendations. Built for fast, intuitive use on iOS and Android.",
+		tags: [
+			{
+				name: "React Native",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Redux",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Firebase",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "/projectimg/zaphire-mobile.png",
+		ios_link: "https://apps.apple.com/us/app/zaphire-network-job-finder/id1519816104",
+		android_link: "https://play.google.com/store/apps/details?id=com.taliber.zaphirelive.android.prod",
+	},
+	{
+		name: "Website for Zaphire",
+		description:
+			"Website for Zaphire. I built this website using HTML, CSS, and PHP based on XD design. It's designed for high performance and responsive access across devices. I handled minor animations smoothly.",
+		tags: [
+			{
+				name: "HTML5",
+				color: "green-text-gradient",
+			},
+			{
+				name: "CSS",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "PHP",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "/projectimg/zaphire.png",
+		source_code_link: "https://github.com/o-dev1121/zaphire-landingpage-old",
+		deploy_link: "https://zaphire.live/",
 	},
 	{
 		name: "Autarq Solar Solutions",
